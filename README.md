@@ -2,7 +2,7 @@
 Repositorio para repaso de HTML 5
 
 
-# Contribuidores
+# Colaboradores
 
 - Danilson
 - Mora
