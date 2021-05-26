@@ -23,6 +23,10 @@ Repositorio para repaso de HTML 5
 
     git add .
 
+- Generar el commit
+
+    git commit -m "<mensaje_corto_pero_descriptivo>"
+
 - Subir cambios al respositorio
 
     git push origin <nombre_rama>
