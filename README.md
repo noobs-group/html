@@ -1,7 +1,7 @@
 # html
 Repositorio para repaso de HTML 5
 
-# Comandos básicos
+## Comandos básicos
 
 - Actualizar ramas en el repositorio local
 
@@ -30,6 +30,10 @@ Repositorio para repaso de HTML 5
 - Subir cambios al respositorio
 
     git push origin <nombre_rama>
+
+## Sass
+
+    sass --watch scss/style.scss:css/style.css
 
 # Colaboradores
 
