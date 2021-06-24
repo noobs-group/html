@@ -72,3 +72,49 @@ p {
     @extend %message-shared;
     border-color: yellow;
 }
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+
+    .logo {
+        text-align: center;
+
+        .img {
+            height: 110px;
+            width: auto;
+        }
+    }
+
+    .nav {
+        align-items: center;
+        display: flex;
+
+        .item {
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 20px;
+
+            &.active {
+                background-color: $item-selected;
+            }
+        }
+    }
+
+    .nav-login {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        .btn {
+            background-color: $river-bed;
+            border: none;
+            box-shadow: $silver-chalice 0px 5px 15px;
+            color: $white;
+            font-size: 18px;
+            padding: 15px 15px;
+        }
+    }
+
+}
